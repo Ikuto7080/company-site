@@ -1,0 +1,59 @@
+.news-topics{
+    margin-top: 120px;
+    background-image: url(../../img/topic_bg_image.png);
+    position: relative;
+    margin-bottom: 120px;
+    .title{
+        text-align: center;
+        position: relative;
+        top: -15px;
+        // width: ;
+        .main{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Myriad Pro';
+            display: block;
+            margin: 10px;
+        }
+        .sub{
+            font-weight: bold;
+        }
+    }
+
+    .columns{
+
+    }
+    .item{
+        .cont{
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
+        .img{
+
+        }
+        .title{
+            border-radius: 8px;
+            &.bg-red{
+                background-color: rgb(255,51,0);
+            }
+            &.bg-blue{
+                background-color: rgb(80,153,172);
+            }
+            &.bg-green{
+                background-color: rgb(102,140,0);
+            }
+            &.bg-orange{
+                background-color: rgb(255,153,0);
+            }
+
+        }
+        .text{
+
+        }
+    }
+    .linkbox{
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

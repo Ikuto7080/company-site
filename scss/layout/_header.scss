@@ -1,0 +1,57 @@
+.header {
+    .header-fixed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 2;
+    }
+
+    .header-logo {
+        width: 150px;
+        margin-left: 30px;
+    }
+
+
+    .nav {
+        position: absolute;
+        background-color: #000000CC;
+        padding-top: 145px;
+        z-index: 1;
+        width: initial;
+        background-color: transparent;
+        padding-top: 0;
+        z-index: 3;
+        left: inherit;
+        right: 0;
+        top: 38px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-wrap {
+
+    }
+
+    .nav-list {
+        text-align: center;
+        padding-bottom: 45px;
+            display: flex;
+            margin-right: 40px;
+            padding-bottom: 0;
+        .item {
+            + .item {
+                margin-top: 0;
+                margin-left: 20px;
+            }
+        }
+        a {
+            color: rgb(240, 131, 7);
+            font-size: 16px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+}

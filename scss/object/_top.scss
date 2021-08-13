@@ -1,0 +1,62 @@
+.top{
+    background-image: url(../../img/topView.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    margin-top: 80px;
+    margin-right: 50px;
+    @media only screen and (max-width: 767px) {
+        margin-right: auto;
+    }
+}
+
+.point{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    .columns{
+        width: 368px;
+        height: 172px;
+        text-align: center;
+        background-color: rgb(255,226,140);
+        .main-title{
+            width: 80%;
+            height: 40px;
+            background-color: cl(orange);
+            margin: 0 auto;
+            position: relative;
+            top: -20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 25px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+        .title{
+            color: cl(orange);
+            font-size: 20px;
+            font-weight: bold;
+            &::after{
+                content: "";
+                position: absolute;
+                right: 0;
+                bottom: 50px;
+                left: 0;
+                width: 0px;
+                height: 0px;
+                margin: auto;
+                border-style: solid;
+                border-color: cl(orange) transparent transparent transparent;
+                border-width: 20px 20px 20px 20px;
+            }
+        }
+        .text{
+            margin-top: 50px;
+            display: inline-block;
+            margin: 50px auto 0;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.cmn-title{
+    position: relative;
+    font-size: 33px;
+    flood-color: cl(orange);
+    margin-bottom: 30px;
+    &::after{
+        content:"";
+        display:block;
+        width: 200px;
+        height:5px;
+        background-color: cl(orange);
+        position:absolute;
+        bottom: -25px;
+        left:5px;
+    }
+
+}
+
+.cmn-text{
+    margin-top: 60px;
+    line-height: 32px;
+
+    &.right-space{
+        margin-right: 20px;
+    }
+
+}
+
+.linkbox{
+    position: absolute;
+    margin-top: 30px;
+    &.right{
+        right: 0;
+    }
+    @media only screen and (max-width: 767px) {
+        
+    }
+    a{
+        border: solid 2px #000;
+        width: 368px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #000;
+        padding-left: 20px;
+        &::after{
+            content: '';
+                width: 6px;
+                height: 6px;
+                border: 0;
+                border-top: solid 2px #333;
+                border-right: solid 2px #333;
+                transform: rotate(45deg);
+                right: 20px;
+                position: absolute;
+        }
+    }
+}
