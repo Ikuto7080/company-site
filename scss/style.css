@@ -563,7 +563,7 @@ img {
 }
 
 .top {
-  background-image: url(../../img/topView.png);
+  background-image: url("https://github.com/Ikuto7080/company-site/blob/master/img/topView.png?raw=true");
   background-position: center;
   background-size: cover;
   height: 100vh;
